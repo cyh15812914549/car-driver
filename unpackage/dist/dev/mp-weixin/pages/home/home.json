@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "货运江湖",
+  "usingComponents": {
+    "uni-grid": "/components/uni-grid/uni-grid",
+    "uni-grid-item": "/components/uni-grid-item/uni-grid-item",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "source-item": "/components/source/source"
+  }
+}

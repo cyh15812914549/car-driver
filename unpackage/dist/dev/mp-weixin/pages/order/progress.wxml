@@ -1,0 +1,1 @@
+<view><view><uni-steps vue-id="c40e5742-1" options="{{logs}}" active-color="#FF8400" direction="column" active="{{activeIndex}}" bind:__l="__l"></uni-steps></view><view class="bottom-b"><button data-event-opts="{{[['tap',[['checkOrderTrack',['$event']]]]]}}" class="border-radius100 uni-bg-main-color" bindtap="__e">运单轨迹</button></view></view>

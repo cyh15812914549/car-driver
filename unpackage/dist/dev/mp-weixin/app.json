@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/user/my-wallet",
+    "pages/user/user",
+    "pages/login/login",
+    "pages/order/progress",
+    "pages/source/source-detail",
+    "pages/source/source",
+    "pages/common/feedback",
+    "pages/order/order",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/login/forgetPassword",
+    "pages/login/register",
+    "pages/user/setting",
+    "pages/order/order-detail",
+    "pages/webview/webview"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "货运江湖",
+    "navigationBarBackgroundColor": "#FF8400",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#FF8400",
+    "color": "#7a7e83",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icon/icon_home.png",
+        "selectedIconPath": "static/icon/icon_home_HL.png"
+      },
+      {
+        "text": "货源",
+        "pagePath": "pages/source/source",
+        "iconPath": "static/icon/icon_source.png",
+        "selectedIconPath": "static/icon/icon_source_HL.png"
+      },
+      {
+        "text": "运单",
+        "pagePath": "pages/order/order",
+        "iconPath": "static/icon/icon_order.png",
+        "selectedIconPath": "static/icon/icon_order_HL.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icon/icon_user.png",
+        "selectedIconPath": "static/icon/icon_user_HL.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap85.json"
+}

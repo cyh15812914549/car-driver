@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "运单",
+  "usingComponents": {
+    "order-item": "/components/order/order"
+  }
+}

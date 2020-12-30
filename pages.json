@@ -1,0 +1,133 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/user/my-wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+
+		{
+			"path": "pages/order/progress",
+			"style": {}
+		},
+
+		{
+			"path": "pages/source/source-detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "货源详情"
+			}
+		},
+		{
+			"path": "pages/source/source",
+			"style": {
+				"navigationBarTitleText": "货源"
+			}
+		},
+		{
+			"path": "pages/common/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+
+
+
+
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "运单"
+			}
+		},
+
+
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "货运江湖"
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}, {
+			"path": "pages/login/forgetPassword",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/user/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+
+		, {
+			"path": "pages/order/order-detail",
+			"style": {
+				"navigationBarTitleText": "运单详情"
+			}
+		}
+
+		, {
+			"path": "pages/webview/webview",
+			"style": {}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "货运江湖",
+		"navigationBarBackgroundColor": "#FF8400",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#FF8400",
+		"color": "#7a7e83",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icon/icon_home.png",
+				"selectedIconPath": "static/icon/icon_home_HL.png"
+			},
+			{
+				"text": "货源",
+				"pagePath": "pages/source/source",
+				"iconPath": "static/icon/icon_source.png",
+				"selectedIconPath": "static/icon/icon_source_HL.png"
+			},
+			{
+				"text": "运单",
+				"pagePath": "pages/order/order",
+				"iconPath": "static/icon/icon_order.png",
+				"selectedIconPath": "static/icon/icon_order_HL.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icon/icon_user.png",
+				"selectedIconPath": "static/icon/icon_user_HL.png"
+			}
+		]
+	}
+}
